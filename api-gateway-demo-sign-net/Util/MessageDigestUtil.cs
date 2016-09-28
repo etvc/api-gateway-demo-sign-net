@@ -42,7 +42,7 @@ namespace aliyun_api_gateway_sdk.Util
             {
                 return Encoding.Default.GetString(Encoding.Convert(Encoding.UTF8, Encoding.GetEncoding("ISO-8859-1"), Encoding.UTF8.GetBytes(input)));
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 return input;
             }
